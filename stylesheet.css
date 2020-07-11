@@ -1,5 +1,5 @@
 body{
-background-image: url("img.jpg");
+background-image: url("down.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -8,20 +8,20 @@ h2{
 	font-family: cursive;
 	text-align: center;
 	text-decoration: underline;
-	text-shadow: rgb(218, 216, 216);
 	font-size: 40px;
 }
 
 .calculator{
 	text-align: center;
 	margin: 0 auto;
+	box-shadow: 0 10px 20px rgba(170, 169, 169, 0.19), 0 6px 6px rgba(190, 190, 190, 0.23);
 	
 	width: 400px;
 }
 .calculator-screen{
 	width: 100%;
 	height: 100px;
-	background-color: #021f24;
+	background-color: #69a5af;
 	color: #fff;
 	text-align: right;
 	font-size: 36px;
@@ -39,7 +39,7 @@ h2{
 
 button{
 	height: 80px;
-	background-color: rgb(221, 107, 250);
+	background-color: rgb(82, 145, 108);
 	border: 1px solid black;
 	font-size: 32px;
 	color: #fff;
@@ -53,13 +53,13 @@ button{
 }
 
 .operator,.equal-sign{
-	background-color: rgb(248, 179, 51);
+	background-color: rgb(248, 189, 78);
 }
 
 button:hover{
-	background-color: rgb(211, 24, 248);
+	background-color: rgb(61, 109, 75);
 }
 
 .operator:hover, .equal-sign:hover{
-	background-color: darkorange;
+	background-color: rgb(247, 152, 36);
 }
